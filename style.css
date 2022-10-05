@@ -37,8 +37,13 @@ main {
 }
 
 .attribution {
-    font-size: 11px; 
-    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    font-size: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center; 
 }
 
 .attribution a { 
