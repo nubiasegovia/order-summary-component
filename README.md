@@ -10,7 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
-  - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
 
@@ -24,14 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop screenshot](./design/screenshot-desktop.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
