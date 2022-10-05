@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 *{ 
     font-family: 'Red Hat Display', sans-serif;
@@ -34,6 +34,25 @@ main {
     height: auto;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+}
+
+.title, .plan-title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.order-text, .plan-price, .btn-cancel {
+   color: hsl(224, 23%, 55%);
+}
+
+.btn-change{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.btn-confirm {
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
 }
 
 .attribution {
