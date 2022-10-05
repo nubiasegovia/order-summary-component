@@ -17,16 +17,14 @@ body {
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
     height: 100vh;
+    line-height: 1.5;
 }
 
 main {
-    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(0, 100%, 99%);
     border-radius: 20px;
     max-width: 370px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    min-width: 250px;
 }
 
 .illustration-hero img {
@@ -34,6 +32,14 @@ main {
     height: auto;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+}
+
+.card-infos {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .title, .plan-title {
@@ -45,14 +51,61 @@ main {
    color: hsl(224, 23%, 55%);
 }
 
+.order-text {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 4%;
+}
+
+.chosen-plan {
+    background-color: 	hsl(240, 14%, 95%);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 0.8rem;
+    padding: 6%;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.plan-icon img  {
+    width: 70%;
+}
+
 .btn-change{
     color: hsl(245, 75%, 52%);
     font-weight: 700;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-change:hover{
+    color:	hsl(245, 86%, 69%)
 }
 
 .btn-confirm {
     color: hsl(225, 100%, 98%);
     background-color: hsl(245, 75%, 52%);
+    border: none;
+    margin: 10%;
+    padding: 3%;
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-confirm:hover {
+    background-color: hsl(245, 86%, 69%);
+}
+
+.btn-cancel {
+    border: none;
+    background-color: hsl(0, 100%, 99%);
+    font-weight: 700;
+}
+
+.btn-cancel:hover{
+    color: hsl(223, 47%, 23%);
 }
 
 .attribution {
