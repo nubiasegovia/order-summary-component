@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-solution-TGZLRLpD-y)
 - Live Site URL: [Live preview](https://nubiasegovia.github.io/order-summary-component/)
 
 ### Built with
